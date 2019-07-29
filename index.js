@@ -24,3 +24,6 @@ function prependKitten(Garfield) {
   return [Garfield,...kittens]
 }
 
+function removeLastKitten() {
+  return kittens.slice(0, kittens.length - 1)
+}
