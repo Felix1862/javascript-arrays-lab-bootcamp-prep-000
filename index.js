@@ -7,3 +7,7 @@ function destructivelyAppendKitten (Milo) {
 function destructivelyPrependKitten (Garfield) {
   return kittens.unshift(Garfield)
 }
+
+function destructivelyRemoveLastKitten() {
+  return kittens.shift()
+}
