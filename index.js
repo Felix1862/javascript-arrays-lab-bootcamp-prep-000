@@ -8,6 +8,6 @@ function destructivelyPrependKitten (Garfield) {
   return kittens.unshift(Garfield)
 }
 
-function destructivelyRemoveLastKitten(Milo) {
-  return kittens.shift(Milo)
+function destructivelyRemoveLastKitten(Otis) {
+  return kittens.shift(Otis)
 }
