@@ -9,7 +9,7 @@ function destructivelyPrependKitten (Garfield) {
 }
 
 function destructivelyRemoveLastKitten() {
-   retun kittens.pop()
+   return kittens.pop()
 }
 
 function destructivelyRemoveFirstKitten() {
