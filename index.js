@@ -4,6 +4,6 @@ function destructivelyAppendKitten (Milo) {
   return kittens.push (Milo)
 }
 
-function destruvtivelyPrependKitten (Garfield) {
-  kittens.unshift(Garfield)
+function destructivelyPrependKitten (Garfield) {
+  return kittens.unshift(Garfield)
 }
