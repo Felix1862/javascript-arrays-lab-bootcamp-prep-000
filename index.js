@@ -9,5 +9,5 @@ function destructivelyPrependKitten (Garfield) {
 }
 
 function destructivelyRemoveLastKitten(Otis) {
-  return kittens.shift()
+  return kittens.shift(Otis)
 }
