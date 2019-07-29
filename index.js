@@ -5,4 +5,5 @@ function destructivelyAppendKitten (Milo) {
 }
 
 function destruvtivelyPrependKitten (Garfield) {
+  kittens.unshift(Garfield)
 }
