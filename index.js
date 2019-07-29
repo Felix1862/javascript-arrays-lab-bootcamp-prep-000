@@ -5,5 +5,6 @@ function destructivelyAppendKitten (Milo) {
 }
 
 function destruvtivelyPrependKitten (Garfield) {
-  return kittens.unshift (Garfield)
+  kittens.unshift (Garfield)
+    return kittens
 }
