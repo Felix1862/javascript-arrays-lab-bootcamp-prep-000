@@ -6,12 +6,10 @@ function destructivelyAppendKitten (Milo) {
 
 function destructivelyPrependKitten (Garfield) {
   return kittens.unshift(Garfield)
-  
 }
 
-function destructivelyRemoveLastKitten(Garfield) {
-   kittens.shift(Garfield)
-   return kittens
+function destructivelyRemoveLastKitten() {
+   retun kittens.pop()
 }
 
 function destructivelyRemoveFirstKitten() {
